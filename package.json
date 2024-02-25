@@ -21,6 +21,7 @@
     "@angular/router": "~17.1.0",
     "@heavy-duty/wallet-adapter": "^0.8.4",
     "@heavy-duty/wallet-adapter-cdk": "^0.8.4",
+    "@heavy-duty/wallet-adapter-material": "^0.8.4",
     "@nx/angular": "18.0.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
