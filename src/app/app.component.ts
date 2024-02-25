@@ -38,6 +38,12 @@ import { MatAnchor } from '@angular/material/button';
         <li>
           <a [routerLink]="['settings']" mat-raised-button>Settings</a>
         </li>
+        <li>
+          <a [routerLink]="['balance']" mat-raised-button>Balance</a>
+        </li>
+        <li>
+          <a [routerLink]="['transactions']" mat-raised-button>Movimientos</a>
+        </li>
       </ul>
     </nav>
 </header>
