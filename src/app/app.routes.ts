@@ -15,4 +15,9 @@ export const appRoutes: Route[] = [
         path: '**',
         redirectTo: '',
     },
+    {
+        path: 'transactions',
+        loadComponent: () => 
+        import('./transactions-section.component').then((page) => page.TransactionsSectionComponent),
+    },
 ];
